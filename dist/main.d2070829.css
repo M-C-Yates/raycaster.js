@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#canvas {
+  border: 1px solid black;
+  image-rendering: pixelated;
+}
+
+
+/*# sourceMappingURL=/main.d2070829.css.map */
